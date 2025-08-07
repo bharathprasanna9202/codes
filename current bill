@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+     Scanner Scan=new Scanner(System.in);
+     System.out.println("Enter the unit");
+     int unit=Scan.nextInt();
+     int total=unit/100;
+     switch(unit/100) {
+         case 0:
+             System.out.println(unit*2);
+             break;
+             case 1:
+             System.out.println(unit*3);
+             break;
+             case 2:
+                 System.out.println(unit*4);
+                 break;
+                 case 3:
+                     System.out.println(unit*5);
+                     break;
+                     default:
+                     System.out.println("does'n exists");
+     }
+    }
+}

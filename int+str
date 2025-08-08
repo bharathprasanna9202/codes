@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        System.out.println("enter your age:"+a);
+        int b=scan.nextInt();
+        System.out.println("enter your grade:"+b);
+        String c=scan.next();
+         System.out.println("enter your name:"+c);
+        String d=scan.next();
+         System.out.println("enter your branch:"+d);
+    }
+}

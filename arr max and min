@@ -1,4 +1,4 @@
-package natraj;
+package bharath;
 public class max_or_min {
 	public static void main(String[] args) {
 		        int[] num = {99,34,4,88,24,4};

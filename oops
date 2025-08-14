@@ -1,0 +1,24 @@
+package package_2;
+import package_2NewClass();
+public class Sample54{
+    Sample54(String b){
+        String a=b;
+        System.out.println(a);
+    }
+    {
+        System.out.println("hi");
+    }
+    static{
+        System.out.println("hiiiiiiiiiiiii");
+    }
+    {
+        System.out.println("hello");
+    }
+    public static void main(String[] args){
+        NewClass n=new NewClass();
+        Sample54 s=new Sample54("NOT SUPPORT");
+       System.out.println(n.a);
+       System.out.println(n.b);
+     System.out.println(n.area());
+    }
+}
